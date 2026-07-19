@@ -1,0 +1,1 @@
+# Input 5 subject marks from user and display grade(eg.First class,Second class ..)
