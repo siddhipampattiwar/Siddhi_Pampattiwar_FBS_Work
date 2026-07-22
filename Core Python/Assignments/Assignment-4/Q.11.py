@@ -1,0 +1,20 @@
+# WAP to check if given number Strong Number.
+num=int(input('Enter a number = '))
+temp=num
+s=0
+while temp>0:
+    digit = temp%10
+
+    fact=1
+    for i in range(1,digit+1):
+        fact=fact*i
+
+    s=s+fact
+    temp=temp//10
+
+if sum == num:
+    print('The number is Strong Number')
+else:
+    print('The number is not Strong Number')    
+    
+               
